@@ -224,7 +224,7 @@ plot(random_tree)
 physeq1 = merge_phyloseq(physeq, sampledata, random_tree)
 physeq1
 
-#core microbiom
+#core microbiom based off of Leo Lahti, Sudarshan Shetty et al. https://microbiome.github.io/tutorials/Core.html
 
 #install.packages("eulerr") # If not installed
 library(eulerr)
